@@ -1,0 +1,27 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[AnimalProperties] (Table)
+       [dbo].[Animals] (Table)
+       [dbo].[AnimalTypeProperties] (Table)
+       [dbo].[AnimalTypes] (Table)
+       [dbo].[ConcreteAnimalProperties] (Table)
+       [dbo].[User] (Table)
+       [dbo].[FK_Animal_AnimalType] (Foreign Key)
+       [dbo].[FK_AnimalTypeProperties_AnimalType] (Foreign Key)
+       [dbo].[FK_AnimalTypeProperties_AnimalProperties] (Foreign Key)
+       [dbo].[FK_ConcreteAnimalProperties_AnimalTypeProperties] (Foreign Key)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+
